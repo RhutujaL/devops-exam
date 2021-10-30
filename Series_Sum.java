@@ -12,9 +12,8 @@ class Series_Sum {
     }
 
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.println("Enter the value of n: ");
-        int n = sc.nextInt();
+        int n ;
+        n=Integer.parseInt(args[0]);
 
         System.out.printf("Sum of the series upto " + n + "th term = %.2f",findSum(n));
     }
